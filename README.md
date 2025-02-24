@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JEE Main and NEET Preparation
 
-## Getting Started
+## Counseling
+- Guidance on college selection
+    - Assistance with understanding college rankings and cut-offs
+    - Help with application processes and deadlines
+- Personalized counseling sessions
+    - One-on-one sessions with experienced counselors
+    - Tailored advice based on individual strengths and weaknesses
+- Expert advice on career paths
+    - Insights into various engineering and medical career options
+    - Information on emerging fields and specializations
 
-First, run the development server:
+## Motivation
+- Success stories of JEE and NEET toppers
+    - Interviews and testimonials from previous years' top rankers
+    - Strategies and study plans that worked for them
+- Tips to stay motivated during preparation
+    - Techniques to manage stress and avoid burnout
+    - Time management tips and study schedules
+- Inspirational quotes and videos
+    - Curated list of motivational quotes from famous personalities
+    - Videos that inspire and encourage perseverance
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Full Study for Free
+- Access to free study materials
+    - Comprehensive notes and summaries for all subjects
+    - Downloadable PDFs and e-books
+- Free online lectures and tutorials
+    - Video lectures from experienced teachers
+    - Step-by-step tutorials for difficult concepts
+- Practice tests and previous year papers
+    - Mock tests to simulate exam conditions
+    - Solutions and explanations for previous year questions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Specific Courses
+- Detailed courses on Physics, Chemistry, and Mathematics for JEE
+    - In-depth coverage of the entire syllabus
+    - Problem-solving techniques and shortcuts
+- Detailed courses on Physics, Chemistry, and Biology for NEET
+    - Thorough explanation of concepts with examples
+    - Focus on important topics and frequently asked questions
+- Crash courses for quick revision
+    - Intensive revision sessions before exams
+    - Summary notes and key points for last-minute prep
+- Advanced problem-solving sessions
+    - High-level questions and challenging problems
+    - Strategies to tackle difficult questions effectively
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Stay focused and achieve your dreams with our comprehensive JEE Main and NEET preparation resources!
