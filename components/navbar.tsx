@@ -11,7 +11,6 @@ export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [mounted, setMounted] = useState(false)
 
-  // Wait until mounted to avoid hydration mismatch
   useEffect(() => {
     setMounted(true)
   }, [])
@@ -19,13 +18,14 @@ export function Navbar() {
   if (!mounted) {
     return (
       <nav className="fixed w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 border-b">
-        <div className="container flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              LaserX Acad
+        <div className="container flex h-16 items-center justify-center">
+          <div className="flex items-center space-x-2">
+            <span className="text-3xl font-extrabold text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text transform scale-110">
+              L<span className="text-5xl text-purple-700">X</span>
             </span>
-          </Link>
-          <div className="h-10 w-10" /> {/* Placeholder for theme toggle */}
+            <span className="text-2xl font-bold text-foreground">LaserX Acad</span>
+          </div>
+          <div className="h-10 w-10" />
         </div>
       </nav>
     )
@@ -35,9 +35,10 @@ export function Navbar() {
     <nav className="fixed w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 border-b">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            LaserX Acad
-          </span>
+            <span className="text-3xl font-extrabold text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text transform scale-110 ml-20">
+            Laser<span className="text-5xl text-purple-700">X</span><span className="text-3xl font-extrabold text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text transform scale-110">
+            Acad</span>
+            </span>
         </Link>
 
         <div className="hidden md:flex items-center space-x-6">

@@ -3,16 +3,16 @@ import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="bg-background border-t">
-      <div className="container py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-background border-t text-center">
+      <div className="container py-12 md:py-16 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left">
           <div>
             <h3 className="text-lg font-semibold mb-4">LaserX Acad</h3>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-muted-foreground leading-tight">
               Empowering students to achieve their dreams through quality education and guidance.
             </p>
           </div>
-          
+
           <div>
             <h4 className="font-medium mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
@@ -33,7 +33,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/about" className="text-muted-foreground hover:text-foreground">
-                  About Us
+                  AboutUss
                 </Link>
               </li>
             </ul>
@@ -67,7 +67,7 @@ export function Footer() {
 
           <div>
             <h4 className="font-medium mb-4">Connect With Us</h4>
-            <div className="flex space-x-4">
+            <div className="flex justify-center md:justify-start space-x-4">
               <Link href="#" className="text-muted-foreground hover:text-foreground">
                 <Facebook className="h-5 w-5" />
               </Link>

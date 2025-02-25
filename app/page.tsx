@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="pt-24 pb-12 md:pt-32 md:pb-20">
-        <div className="container">
+        <div className="container mx-auto">
           <div className="flex flex-col items-center text-center space-y-8">
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Your Success Journey Starts Here
@@ -27,7 +27,7 @@ export default function Home() {
 
       {/* Features Section */}
       <section className="py-12 bg-muted/50">
-        <div className="container">
+        <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card className="p-6">
               <BookOpen className="h-12 w-12 text-blue-600 mb-4" />
@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* Popular Courses Section */}
       <section className="py-12">
-        <div className="container">
+        <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Popular Courses</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
@@ -103,7 +103,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-12 bg-primary text-primary-foreground">
-        <div className="container text-center">
+        <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Your Journey?</h2>
           <p className="text-lg mb-8 opacity-90">Join thousands of successful students who achieved their dreams with LaserX Acad</p>
           <Button size="lg" variant="secondary">
