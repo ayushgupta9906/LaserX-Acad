@@ -57,7 +57,7 @@ export function Navbar() {
           <Button variant="outline" size="sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
             {theme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </Button>
-          <Button>Get Started</Button>
+            <Button onClick={() => window.location.href = '/login'}>Login</Button>
         </div>
 
         <button

@@ -62,19 +62,19 @@ export default function Home() {
               {
                 title: "JEE Main Complete Course",
                 image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-                price: "₹9,999",
+                price: "₹999",
                 duration: "12 months"
               },
               {
                 title: "NEET Crash Course",
                 image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-                price: "₹8,999",
+                price: "₹999",
                 duration: "6 months"
               },
               {
                 title: "JEE Advanced Pro",
                 image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-                price: "₹12,999",
+                price: "₹999",
                 duration: "12 months"
               }
             ].map((course, index) => (
