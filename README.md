@@ -1,50 +1,76 @@
-# JEE Main and NEET Preparation
+# LaserX Acad - Educational Platform
 
-## Counseling
-- Guidance on college selection
-    - Assistance with understanding college rankings and cut-offs
-    - Help with application processes and deadlines
-- Personalized counseling sessions
-    - One-on-one sessions with experienced counselors
-    - Tailored advice based on individual strengths and weaknesses
-- Expert advice on career paths
-    - Insights into various engineering and medical career options
-    - Information on emerging fields and specializations
+LaserX Acad is a comprehensive educational platform designed for JEE and NEET aspirants, offering a seamless learning experience with features like video lectures, live classes, study materials, and more.
 
-## Motivation
-- Success stories of JEE and NEET toppers
-    - Interviews and testimonials from previous years' top rankers
-    - Strategies and study plans that worked for them
-- Tips to stay motivated during preparation
-    - Techniques to manage stress and avoid burnout
-    - Time management tips and study schedules
-- Inspirational quotes and videos
-    - Curated list of motivational quotes from famous personalities
-    - Videos that inspire and encourage perseverance
+## Features
 
-## Full Study for Free
-- Access to free study materials
-    - Comprehensive notes and summaries for all subjects
-    - Downloadable PDFs and e-books
-- Free online lectures and tutorials
-    - Video lectures from experienced teachers
-    - Step-by-step tutorials for difficult concepts
-- Practice tests and previous year papers
-    - Mock tests to simulate exam conditions
-    - Solutions and explanations for previous year questions
+- 📚 Comprehensive course catalog for JEE and NEET preparation
+- 🎥 Live classes with expert instructors
+- 📝 Practice tests and assessments
+- 📱 Responsive design for all devices
+- 🌓 Dark/Light mode support
+- 🔒 Secure authentication system
+- 💳 Integrated payment system
 
-## Specific Courses
-- Detailed courses on Physics, Chemistry, and Mathematics for JEE
-    - In-depth coverage of the entire syllabus
-    - Problem-solving techniques and shortcuts
-- Detailed courses on Physics, Chemistry, and Biology for NEET
-    - Thorough explanation of concepts with examples
-    - Focus on important topics and frequently asked questions
-- Crash courses for quick revision
-    - Intensive revision sessions before exams
-    - Summary notes and key points for last-minute prep
-- Advanced problem-solving sessions
-    - High-level questions and challenging problems
-    - Strategies to tackle difficult questions effectively
+## Tech Stack
 
-Stay focused and achieve your dreams with our comprehensive JEE Main and NEET preparation resources!
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: NextAuth.js
+- **UI Components**: shadcn/ui
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/laserx-acad.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file based on `.env.example` and fill in your environment variables:
+   ```bash
+   cp .env.example .env
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+```
+├── app/                 # Next.js app directory
+├── components/          # React components
+├── lib/                 # Utility functions and configurations
+├── public/             # Static assets
+├── styles/             # Global styles
+└── types/              # TypeScript type definitions
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Your Name - [@yourusername](https://twitter.com/yourusername)
+
+Project Link: [https://github.com/yourusername/laserx-acad](https://github.com/yourusername/laserx-acad)
