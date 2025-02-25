@@ -1,5 +1,5 @@
 # LaserX Acad - Educational Platform
-
+![Screenshot](https://github.com/ayushgupta9906/LaserX-Acad/blob/main/Screenshot%202025-02-25%20173040.png)
 LaserX Acad is a comprehensive educational platform designed for JEE and NEET aspirants, offering a seamless learning experience with features like video lectures, live classes, study materials, and more.
 
 ## Features
