@@ -68,9 +68,3 @@ LaserX Acad is a comprehensive educational platform designed for JEE and NEET as
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername)
-
-Project Link: [https://github.com/yourusername/laserx-acad](https://github.com/yourusername/laserx-acad)
