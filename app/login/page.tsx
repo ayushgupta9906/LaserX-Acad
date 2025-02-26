@@ -12,11 +12,11 @@ export default function LoginPage() {
   const [message, setMessage] = useState('');
   const { theme } = useTheme();
   const router = useRouter();
-
+44
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/login', { email, password });
+      const res = await axios.post('https://laserxacadbackend.vercel.app/login', { email, password });
       setMessage(res.data.message || 'Login successful!');
       router.push('/dashboard');
     } catch (err: any) {
