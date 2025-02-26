@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-     "prebuild": "chmod +x node_modules/.bin/tsc",
-  "build": "tsc",
+    "prebuild": "chmod +x node_modules/.bin/tsc",
+    "build": "tsc",
     "start": "next start",
     "lint": "next lint"
   },
@@ -41,6 +41,7 @@
     "@radix-ui/react-tooltip": "^1.1.2",
     "@reduxjs/toolkit": "^2.6.0",
     "axios": "^1.8.0",
+    "chmod": "^0.2.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.4",
