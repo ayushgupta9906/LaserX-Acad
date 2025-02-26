@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "chmod +x node_modules/.bin/tsc",
     "build": "tsc",
     "start": "next start",
     "lint": "next lint"
@@ -75,6 +74,7 @@
     "@types/react-dom": "18.2.7",
     "@types/redux": "^3.6.31",
     "autoprefixer": "10.4.15",
+    "cross-env": "^7.0.3",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
     "postcss": "8.4.30",
