@@ -9,6 +9,7 @@
     "start": "node dist/server.js"
   },
   "dependencies": {
+    "@types/react": "^19.0.10",
     "bcrypt": "^5.1.1",
     "cloudinary": "^1.41.3",
     "config": "^3.3.12",
@@ -20,6 +21,9 @@
     "mongoose": "^8.10.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
+    "react": "^19.0.0",
+    "react-day-picker": "^9.5.1",
+    "react-dom": "^19.0.0",
     "user": "^0.0.0",
     "zod": "^3.24.2"
   },
