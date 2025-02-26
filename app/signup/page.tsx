@@ -15,7 +15,7 @@ export default function SignUpPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await axios.post('/signup', { name, email, password });
+      const res = await axios.post('https://laserxacadbackend.vercel.app/signup', { name, email, password });
       setMessage(res.data.message || 'Registration successful!');
     } catch (err) {
       setMessage('Registration failed. Try again!');
